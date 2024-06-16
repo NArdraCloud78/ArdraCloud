@@ -1,0 +1,41 @@
+.contact {
+    padding: 0;
+   color: #fff;
+     flex-direction: column;  
+     background-color: black;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+
+   }
+   .contact .card {
+    margin-top: 0;
+    
+    width: 450px;
+    min-height: 10px;
+    
+    background:#ebe9e9;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 0 50px 15px #ffffff;
+
+  
+  }
+.contacthead{
+    line-height: 0.5rem;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 4%;
+
+}
+.contacthead h1{
+    font-weight:bolder;
+}
+.contactinfo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%;
+
+}

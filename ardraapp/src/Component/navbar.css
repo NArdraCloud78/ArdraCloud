@@ -1,0 +1,41 @@
+body {
+    font-family: 'Inter', sans-serif;
+  }
+
+  /* custom.css */
+  .navbar {
+   padding: 0;
+  color: #fff;
+    flex-direction: column;  
+    background-color: black;
+  }
+
+  .navbar ul li a{
+    color: #ffffff;
+    
+
+  }
+  .navbar .lastitem .signin{
+    color: #FB47FF;
+
+  }
+.navbar .lastitem .book{
+  color: #0D99FF;
+
+}
+ 
+  .navbar .card {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    min-height: 10px;
+    
+    background:#ebe9e9;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 0 50px 15px #ffffff;
+
+  
+  }
