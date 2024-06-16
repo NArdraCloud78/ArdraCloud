@@ -12,17 +12,20 @@ function Home() {
         <p > Manage Your Energy with ArdraAI:Unveiling <br></br>
           Insights, Empowering Decisions</p>
 
-    </div>
+    </div>  
     <div  className='homebadge mb-3' >
     <img  src={badge}  width={200} height={100} ></img>
     </div> 
     
 
     <div  className='bookdemo mb-3 ' >
-      <Link> Book a demo
+      <Link> Book a demo         
       </Link>
 
-    </div>
+    </div>     
+
+    {/* for demo */}
+
     </>
   )
 }
