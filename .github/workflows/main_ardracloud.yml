@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'ArdraCloud'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FB11E6455FFF48518BEF03EDD3305BB4 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A33B540EDB8B4894BE91C6C2B1ECEC79 }}
           package: .
