@@ -89,7 +89,7 @@ function Navbar() {
               <Link className="nav-link me-5 signin" to="https://app.ardracloud.com/">
                 Sign In
               </Link>
-              <Link className="nav-link book me-5 " to="#">
+              <Link className="nav-link book me-5 " to="https://calendly.com/pranjal-2diz/ardra-ai-socials">
                 Book a Demo
               </Link>
             </div>

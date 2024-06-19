@@ -12,7 +12,7 @@ function App() {
   return (
 
     <div>
-{/* <Footer/> */}
+
 
        {/* <ContactUs/> */}
 
@@ -26,6 +26,7 @@ function App() {
           
           </Route>
          </Routes>
+         <Footer/> 
       </Router> 
 
     </div>

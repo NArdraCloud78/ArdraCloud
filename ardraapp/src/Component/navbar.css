@@ -5,8 +5,13 @@
    padding: 0;
   color: #fff;
     flex-direction: column;  
-    background-color: black;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #222;
+
+  
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    
+    
+  
   }
 
   .navbar ul li a{

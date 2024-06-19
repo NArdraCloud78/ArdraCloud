@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './Footer.css';
 import footerLogo from '../Assist/navbarLogo.png';
 
@@ -20,20 +22,21 @@ function Footer() {
       });
 
       if (response.status === 200) {
-        alert('Subscription successful');
+        toast.success('Subscription successful');
         setEmail('');
         setFirstName('');
       } else {
-        alert('Subscription failed');
+        toast.error('Subscription failed');
       }
     } catch (error) {
       console.error('Error:', error);
-      alert('An error occurred. Please try again later.');
+      toast.error('An error occurred. Please try again later.');
     }
   };
 
   return (
     <footer>
+      <ToastContainer />
       <div className="footer-container">
         <div className="footer-column">
           <img src={footerLogo} alt="Company Logo" height={100} width={150} />
@@ -81,10 +84,10 @@ function Footer() {
         <div className="footer-column bottom">
           <h5>Follow Us</h5>
           <div className="social-media">
-            <a href="https://www.facebook.com/beydest" aria-label="Facebook"><i className="fab fa-facebook-f"></i></a>
-            <a href="https://x.com/hashtag/Beydest?t=6hp_AZaJYXE3g6adQksx9Q&s=08" aria-label="Twitter"><i className="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/ardracloud" aria-label="Facebook"><i className="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/ArdraAi" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
             <a href="https://www.linkedin.com/company/14632013/admin/feed/posts/" aria-label="LinkedIn"><i className="fab fa-linkedin-in"></i></a>
-            <a href="https://www.instagram.com/beydest_india/?hl=en" aria-label="Instagram"><i className="fab fa-instagram"></i></a>
+            <a href="https://www.instagram.com/ardra.ai/" aria-label="Instagram"><i className="fab fa-instagram"></i></a>
           </div>
         </div>
       </div>
