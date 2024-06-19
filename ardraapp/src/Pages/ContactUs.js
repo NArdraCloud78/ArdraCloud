@@ -24,7 +24,7 @@ function ContactUs() {
     <h5 className="card-title">Support</h5>
    
     <p className="card-text">Our support team is ready to give you answers fast.</p>
-    <a href="#" className="card-link">View support page</a><br></br>
+    <a href="#" className="card-link  viewsupport">View support page</a><br></br>
     <a href="#" className="card-link">Submit a request</a>
   </div>
 </div>
@@ -34,7 +34,7 @@ function ContactUs() {
     <h5 className="card-title">Sales</h5>
     
     <p className="card-text">Get in touch with our sales team to see how we work together</p>
-    <a href="#" className="card-link">Contact sales </a> <br></br>
+    <a href="#" className="card-link viewsupport">Contact sales </a> <br></br>
     <a href="#" className="card-link">Submit a request </a>
   </div>
 </div>

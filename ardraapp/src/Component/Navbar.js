@@ -1,21 +1,18 @@
-import React from 'react'
-import ardralogonav from '../Assist/navbarLogo.png'
-import './navbar.css'
-import { Link } from 'react-router-dom'
-
-
+import React from 'react';
+import ardralogonav from '../Assist/navbarLogo.png';
+import './navbar.css';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg  ">
-       
-          <div className='card' > 
-           </div>
+      <nav className="navbar navbar-expand-lg ">
+      <div className='card'>
         
+        </div>
         <div className="container-fluid">
-          <a className="navbar-brand mx-auto" href="#">
-            <img src={ardralogonav} alt="Bootstrap" width="100" height="60" />
+          <a className="navbar-brand" href="#">
+            <img src={ardralogonav} alt="Logo" width="100" height="60" />
           </a>
           <button
             className="navbar-toggler"
@@ -26,9 +23,9 @@ function Navbar() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon" />
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse justify-content-center  " id="navbarNavDropdown">
+          <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item dropdown">
                 <a
@@ -41,21 +38,13 @@ function Navbar() {
                   Product
                 </a>
                 <ul className="dropdown-menu">
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Action
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Another action
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Something else here
-                    </a>
-                  </li>
+                  <li><a className="dropdown-item" href="#">Energy Management</a></li>
+                  <div className='d-flex' >
+                  <li><a className="dropdown-item" href="#">ardraEMS </a> </li>
+                  <li> <a className="dropdown-item" href="#">ardraPROBE</a> </li>
+                  </div>
+                  <li><a className="dropdown-item" href="#">EnergyGPT</a></li>
+                  <li><a className="dropdown-item" href="#">ArdraAI</a></li>
                 </ul>
               </li>
               <li className="nav-item dropdown">
@@ -69,21 +58,9 @@ function Navbar() {
                   Pricing
                 </a>
                 <ul className="dropdown-menu">
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Action
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Another action
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Something else here
-                    </a>
-                  </li>
+                  <li><a className="dropdown-item" href="#">Action</a></li>
+                  <li><a className="dropdown-item" href="#">Another action</a></li>
+                  <li><a className="dropdown-item" href="#">Something else here</a></li>
                 </ul>
               </li>
               <li className="nav-item dropdown">
@@ -94,46 +71,33 @@ function Navbar() {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Docs
+                  Resources
                 </a>
                 <ul className="dropdown-menu">
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Action
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Another action
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Something else here
-                    </a>
-                  </li>
+                  <li><a className="dropdown-item" href="#">Action</a></li>
+                  <li><a className="dropdown-item" href="#">Another action</a></li>
+                  <li><a className="dropdown-item" href="#">Something else here</a></li>
                 </ul>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Orion
+                  ArdraAI
                 </a>
               </li>
-              
             </ul>
-          </div>
-          <div className="d-flex me-5 lastitem">
-            <Link className="nav-link me-3 signin " href="#">
-              Sign In
-            </Link>
-            <Link className="nav-link book" href="#">
-              Book a Demo
-            </Link>
+            <div className="ms-auto lastitem d-flex">
+              <Link className="nav-link me-5 signin" to="https://app.ardracloud.com/">
+                Sign In
+              </Link>
+              <Link className="nav-link book me-5 " to="#">
+                Book a Demo
+              </Link>
+            </div>
           </div>
         </div>
       </nav>
     </div>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;

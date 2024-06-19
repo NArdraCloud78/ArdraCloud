@@ -1,6 +1,4 @@
-body {
-    font-family: 'Inter', sans-serif;
-  }
+
 
   /* custom.css */
   .navbar {
@@ -8,19 +6,25 @@ body {
   color: #fff;
     flex-direction: column;  
     background-color: black;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
   .navbar ul li a{
-    color: #ffffff;
+    color:#FB47FF;
+    
+    
     
 
   }
   .navbar .lastitem .signin{
     color: #FB47FF;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
 
   }
 .navbar .lastitem .book{
   color: #0D99FF;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 
 }
  
@@ -39,3 +43,9 @@ body {
 
   
   }
+  @media (max-width: 991px) {
+    .navbar .card{
+      display: none;
+    }
+
+}

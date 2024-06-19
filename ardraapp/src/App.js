@@ -4,16 +4,23 @@ import './App.css';
 import Navbar from './Component/Navbar';
 import Home from './Pages/Home';
 import ContactUs from './Pages/ContactUs';
+import Footer from './Component/Footer';
+
 
 
 function App() {
   return (
 
     <div>
+{/* <Footer/> */}
+
+       {/* <ContactUs/> */}
+
+      
       
        <Router>
         <Navbar/>
-         <Routes>
+         <Routes> 
           <Route  path='/' element={<Home/>}  >
             <Route path='/contact' element={<ContactUs/>} ></Route>
           
