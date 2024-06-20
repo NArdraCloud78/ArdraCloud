@@ -5,6 +5,9 @@ import Navbar from './Component/Navbar';
 import Home from './Pages/Home';
 import ContactUs from './Pages/ContactUs';
 import Footer from './Component/Footer';
+import Team from './Component/Team';
+import AboutUs from './Pages/AboutUs';
+
 
 
 
@@ -12,12 +15,13 @@ function App() {
   return (
 
     <div>
-
+        {/* <Team/> */}
+        <AboutUs/>
 
        {/* <ContactUs/> */}
 
-      
-      
+    
+{/*       
        <Router>
         <Navbar/>
          <Routes> 
@@ -27,7 +31,7 @@ function App() {
           </Route>
          </Routes>
          <Footer/> 
-      </Router> 
+      </Router>  */}
 
     </div>
   )
