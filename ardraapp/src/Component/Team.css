@@ -14,7 +14,7 @@ body {
   overflow-x: hidden;
 }
 
-img {
+.card img {
   border-radius: 50%;
   width: clamp(100px, 40vw, 120px);
   height: clamp(100px, 40vw, 120px);

@@ -1,56 +1,41 @@
+/* custom.css */
 
-
-  /* custom.css */
-  .navbar {
-   padding: 0;
+.navbar {
+  padding: 0;
   color: #fff;
-    flex-direction: column;  
-    background-color: #222;
+  background-color: #222;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
 
-  
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    
-    
-  
-  }
+.navbar ul li a {
+  color: #FB47FF;
+}
 
-  .navbar ul li a{
-    color:#FB47FF;
-    
-    
-    
+.navbar .lastitem .signin {
+  color: #FB47FF;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
 
-  }
-  .navbar .lastitem .signin{
-    color: #FB47FF;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    
-
-  }
-.navbar .lastitem .book{
+.navbar .lastitem .book {
   color: #0D99FF;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-
 }
- 
+
+.navbar .card {
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  min-height: 10px;
+  background: #ebe9e9;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 0 50px 15px #ffffff;
+}
+
+@media (max-width: 991px) {
   .navbar .card {
-    margin-top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 450px;
-    min-height: 10px;
-    
-    background:#ebe9e9;
-    text-align: center;
-    border-radius: 3px;
-    box-shadow: 0 0 50px 15px #ffffff;
-
-  
+    display: none;
   }
-  @media (max-width: 991px) {
-    .navbar .card{
-      display: none;
-    }
-
 }

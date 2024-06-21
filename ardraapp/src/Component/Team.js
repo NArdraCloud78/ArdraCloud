@@ -9,8 +9,12 @@ import MaazAhmedFarooqui from '../Assist/team/Maaz.jpeg'
 import PranjalYadav from '../Assist/team/Pranjal.jpeg'
 import SmritiYadav from '../Assist/team/Smriti.jpeg'
 import ManojJain from '../Assist/team/manoj.jpeg'
-import AnjaliJain from '../Assist/team/anjali.jpeg'
+import AnjaliJain from '../Assist/team/Anjali.jpeg'
 import keshav from '../Assist/team/kashev.jpg'
+import Diwakar from '../Assist/team/Diwakar.jpeg'
+import Neha from '../Assist/team/Neha.jpeg'
+import Pranay from '../Assist/team/Pranay.jpeg'
+
 
 function Team() {
   return (
@@ -19,8 +23,8 @@ function Team() {
       <div className="circle-bottom"></div>
       <header>
         <div className="header-content">
-          <span>Company Management</span>
-          <h1>Meet a team of experts and innovators who are pioneers in their field</h1>
+          <span>Founding team</span>
+          <h1>We are a team of Engineers, Data scientists, Architects and Enegy auditors</h1>
         </div>
       </header>
       <section>
@@ -28,28 +32,40 @@ function Team() {
           <div className="card">
             <img src={PranjalYadav} alt="Pranjalsir" />
             <h2>Pranjal Yadav</h2>
-            <p>Founder and Chief Operations Officer</p>
+            <p>2X Founder, AI expert and Chief Executive Officer</p>
           </div>
           <div className="card">
-            <img src={SmritiYadav} alt="John Smith" />
+            <img src={SmritiYadav} alt="Smriti Yadav" />
             <h2>Smriti Yadav</h2>
-            <p>Founder and Chief Executive Officer</p>
+            <p>Co-Founder and Chief Design Officer</p>
           </div>
         </div>
         <div className="card">
-          <img src={AnjaliJain} alt="Erik Longman" />
+          <img src={AnjaliJain} alt="Anjali Jain" />
           <h2>Anjali Jain</h2>
-          <p>Chief Process and Innovation Officer</p>
+          <p>Head of Energy Audits</p>
         </div>
         <div className="card">
-          <img src={ManojJain} alt="Matthew Foster" />
+          <img src={ManojJain} alt="Manoj Jain" />
           <h2>Manoj Jain</h2>
-          <p>Chief Sales Officer</p>
+          <p>Head of Finance</p>
         </div>
         <div className="card">
-s          <img src="https://images.pexels.com/photos/1043473/pexels-photo-1043473.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Artur Dichter" />
-          <h2>Artur Dichter</h2>
-          <p>Chief Financial Officer</p>
+         <img src={Pranay} alt="Pranay Dhoot" />
+          <h2>Pranay Dhoot</h2>
+          <p>Head of Data Science, MS Germany</p>
+        </div>
+
+        <div className="card">
+          <img src={Neha} alt="Neha Rani" />
+          <h2>Neha</h2>
+          <p>SDE 2</p>
+        </div>
+
+        <div className="card">
+        <img src={Diwakar} alt="Diwakar Dubey" />
+          <h2>Diwakar</h2>
+          <p>SDE 1</p>
         </div>
         
         
@@ -60,31 +76,31 @@ s          <img src="https://images.pexels.com/photos/1043473/pexels-photo-10434
           {/* Team members in the scrolling row */}
           <div className="team-member">
             <img src={keshav} alt="keshav" />
-            <h2>Keshav Sharma</h2>
+            <h2>Keshav</h2>
           </div>
           <div className="team-member">
             <img src={IlishaTomer} alt="ilisha" />
-            <h2>Ilisha Tomer</h2>
+            <h2>Ilisha</h2>
           </div>
           <div className="team-member">
             <img src={MaazAhmedFarooqui} alt="maaz" />
-            <h2>Maaz Ahmed</h2>
+            <h2>Maaz</h2>
           </div>
           <div className="team-member">
             <img src={AyushiSinha} alt="Ayushi" />
-            <h2>Ayushi Sinha</h2>
+            <h2>Ayushi</h2>
           </div>
           <div className="team-member">
             <img src={NishchalSingh} alt="nishal" />
-            <h2>Nishchal Singh</h2>
+            <h2>Nishchal</h2>
           </div>
           <div className="team-member">
             <img src={SajalJain} alt="" />
-            <h2>SajalJain</h2>
+            <h2>Sajal</h2>
           </div>
           <div className="team-member">
             <img src={SanskarChauhan} alt="sanskar" />
-            <h2>Sanskar Chauhan</h2>
+            <h2>Sanskar</h2>
           </div>
 
           {/* Repeat for each team member */}
