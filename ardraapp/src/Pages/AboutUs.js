@@ -13,6 +13,7 @@ function AboutUs() {
 
       <div className="about-section">
         <h2>About Us</h2>
+        <h5> Ankit Sir</h5>
         <p>
           We are a forward-thinking company dedicated to driving innovation in our field. Our team of experts is committed to excellence and delivering outstanding results.
         </p>
