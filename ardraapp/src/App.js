@@ -16,22 +16,23 @@ function App() {
 
     <div>
         {/* <Team/> */}
-        <AboutUs/>
+        {/* <AboutUs/> */}
 
        {/* <ContactUs/> */}
 
     
-{/*       
+      
        <Router>
         <Navbar/>
          <Routes> 
           <Route  path='/' element={<Home/>}  >
-            <Route path='/contact' element={<ContactUs/>} ></Route>
+          <Route  path='/aboutus' element={AboutUs} ></Route>
+          <Route path='/contact' element={<ContactUs/>} ></Route>
           
           </Route>
          </Routes>
          <Footer/> 
-      </Router>  */}
+      </Router> 
 
     </div>
   )

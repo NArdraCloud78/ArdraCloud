@@ -55,7 +55,7 @@ function Footer() {
         <div className="footer-column">
           <h5>Company</h5>
           <ul>
-            <li><a href="#">About</a></li>
+            <li><a href="/aboutus">About</a></li>
             <li><a href="#">Blogs</a></li>
             <li><a href="#">Career</a></li>
             <li><a href="#">Team</a></li>
