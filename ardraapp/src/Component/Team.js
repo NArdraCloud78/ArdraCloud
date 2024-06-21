@@ -1,6 +1,16 @@
 import React from 'react';
 import './Team.css';
-import ilisha from '../Assist/team/ilisha.jpg'
+import IlishaTomer from '../Assist/team/ilisha.jpg'
+import SanskarChauhan from '../Assist/team/Sanskar.JPEG'
+import AyushiSinha from '../Assist/team/Ayushi.jpeg'
+import NishchalSingh from '../Assist/team/Nishchal.png'
+import SajalJain from '../Assist/team/Sajal.jpeg'
+import MaazAhmedFarooqui from '../Assist/team/Maaz.jpeg'
+import PranjalYadav from '../Assist/team/Pranjal.jpeg'
+import SmritiYadav from '../Assist/team/Smriti.jpeg'
+import ManojJain from '../Assist/team/manoj.jpeg'
+import AnjaliJain from '../Assist/team/anjali.jpeg'
+import keshav from '../Assist/team/kashev.jpg'
 
 function Team() {
   return (
@@ -16,24 +26,24 @@ function Team() {
       <section>
         <div className="card-top">
           <div className="card">
-            <img src="https://images.pexels.com/photos/2811089/pexels-photo-2811089.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Alexandra Smith" />
-            <h2>Alexandra Smith</h2>
+            <img src={PranjalYadav} alt="Pranjalsir" />
+            <h2>Pranjal Yadav</h2>
             <p>Founder and Chief Operations Officer</p>
           </div>
           <div className="card">
-            <img src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="John Smith" />
-            <h2>John Smith</h2>
+            <img src={SmritiYadav} alt="John Smith" />
+            <h2>Smriti Yadav</h2>
             <p>Founder and Chief Executive Officer</p>
           </div>
         </div>
         <div className="card">
-          <img src="https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Erik Longman" />
-          <h2>Erik Longman</h2>
+          <img src={AnjaliJain} alt="Erik Longman" />
+          <h2>Anjali Jain</h2>
           <p>Chief Process and Innovation Officer</p>
         </div>
         <div className="card">
-          <img src="https://images.pexels.com/photos/2216607/pexels-photo-2216607.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Matthew Foster" />
-          <h2>Matthew Foster</h2>
+          <img src={ManojJain} alt="Matthew Foster" />
+          <h2>Manoj Jain</h2>
           <p>Chief Sales Officer</p>
         </div>
         <div className="card">
@@ -49,32 +59,32 @@ s          <img src="https://images.pexels.com/photos/1043473/pexels-photo-10434
         <div className="scrolling-wrapper">
           {/* Team members in the scrolling row */}
           <div className="team-member">
-            <img src={ilisha} alt="Ilisha" />
-            <h2>Ilisha Tomar</h2>
+            <img src={keshav} alt="keshav" />
+            <h2>Keshav Sharma</h2>
           </div>
           <div className="team-member">
-            <img src="" alt="" />
-            <h2></h2>
+            <img src={IlishaTomer} alt="ilisha" />
+            <h2>Ilisha Tomer</h2>
           </div>
           <div className="team-member">
-            <img src="" alt="" />
-            <h2></h2>
+            <img src={MaazAhmedFarooqui} alt="maaz" />
+            <h2>Maaz Ahmed</h2>
           </div>
           <div className="team-member">
-            <img src="" alt="" />
-            <h2></h2>
+            <img src={AyushiSinha} alt="Ayushi" />
+            <h2>Ayushi Sinha</h2>
           </div>
           <div className="team-member">
-            <img src="" alt="" />
-            <h2></h2>
+            <img src={NishchalSingh} alt="nishal" />
+            <h2>Nishchal Singh</h2>
           </div>
           <div className="team-member">
-            <img src="" alt="" />
-            <h2></h2>
+            <img src={SajalJain} alt="" />
+            <h2>SajalJain</h2>
           </div>
           <div className="team-member">
-            <img src="" alt="" />
-            <h2></h2>
+            <img src={SanskarChauhan} alt="sanskar" />
+            <h2>Sanskar Chauhan</h2>
           </div>
 
           {/* Repeat for each team member */}
