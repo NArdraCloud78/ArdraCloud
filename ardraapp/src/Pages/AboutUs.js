@@ -8,7 +8,7 @@ function AboutUs() {
     <div className="about-us-header">
       <div className="intro-section">
         <span>Welcome to Ardra.ai</span>
-        <h1>Join the future of energy with Ardra AI - Your partner in sustainable innovation.</h1>
+        <h3>Join the future of energy with Ardra AI - Your partner in sustainable innovation.</h3>
       </div>
 
       <div className="about-section">
