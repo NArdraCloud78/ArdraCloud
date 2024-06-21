@@ -7,9 +7,7 @@ function Navbar() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg ">
-      <div className='card'>
         
-        </div>
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             <img src={ardralogonav} alt="Logo" width="100" height="60" />
@@ -39,10 +37,12 @@ function Navbar() {
                 </a>
                 <ul className="dropdown-menu">
                   <li><a className="dropdown-item" href="#">Energy Management</a></li>
-                  <div className='d-flex' >
-                  <li><a className="dropdown-item" href="#">ardraEMS </a> </li>
-                  <li> <a className="dropdown-item" href="#">ardraPROBE</a> </li>
-                  </div>
+                  <li>
+                    <div className='d-flex'>
+                      <a className="dropdown-item" href="#">ardraEMS</a>
+                      <a className="dropdown-item" href="#">ardraPROBE</a>
+                    </div>
+                  </li>
                   <li><a className="dropdown-item" href="#">EnergyGPT</a></li>
                   <li><a className="dropdown-item" href="#">ArdraAI</a></li>
                 </ul>
@@ -85,13 +85,13 @@ function Navbar() {
                 </a>
               </li>
             </ul>
-            <div className="ms-auto lastitem d-flex">
-              <Link className="nav-link me-5 signin" to="https://app.ardracloud.com/">
+            <div className="d-flex ms-auto lastitem">
+              <a className="nav-link me-5 signin" href="https://app.ardracloud.com/">
                 Sign In
-              </Link>
-              <Link className="nav-link book me-5 " to="https://calendly.com/pranjal-2diz/ardra-ai-socials">
+              </a>
+              <a className="nav-link book me-5" href="https://calendly.com/pranjal-2diz/ardra-ai-socials">
                 Book a Demo
-              </Link>
+              </a>
             </div>
           </div>
         </div>

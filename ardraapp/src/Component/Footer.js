@@ -55,7 +55,7 @@ function Footer() {
         <div className="footer-column">
           <h5>Company</h5>
           <ul>
-            <li><a href="/aboutus">About</a></li>
+            <li><a href='/aboutus'>About</a></li>
             <li><a href="#">Blogs</a></li>
             <li><a href="#">Career</a></li>
             <li><a href="#">Team</a></li>
@@ -85,7 +85,7 @@ function Footer() {
           <h5>Follow Us</h5>
           <div className="social-media">
             <a href="https://www.facebook.com/ardracloud" aria-label="Facebook"><i className="fab fa-facebook-f"></i></a>
-            <a href="https://twitter.com/ArdraAi" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://twitter.com/ArdraAi" aria-label="Twitter"><i className="fab fa-twitter"></i></a>
             <a href="https://www.linkedin.com/company/14632013/admin/feed/posts/" aria-label="LinkedIn"><i className="fab fa-linkedin-in"></i></a>
             <a href="https://www.instagram.com/ardra.ai/" aria-label="Instagram"><i className="fab fa-instagram"></i></a>
           </div>

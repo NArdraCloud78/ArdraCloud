@@ -9,7 +9,7 @@ import MaazAhmedFarooqui from '../Assist/team/Maaz.jpeg'
 import PranjalYadav from '../Assist/team/Pranjal.jpeg'
 import SmritiYadav from '../Assist/team/Smriti.jpeg'
 import ManojJain from '../Assist/team/manoj.jpeg'
-import AnjaliJain from '../Assist/team/anjali.jpeg'
+import AnjaliJain from '../Assist/team/Anjali.jpeg'
 import keshav from '../Assist/team/kashev.jpg'
 
 function Team() {
