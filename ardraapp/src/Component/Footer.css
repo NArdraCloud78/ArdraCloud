@@ -68,8 +68,8 @@ footer {
 }
 
 .footer-column .social-media a {
-    color: #bbb;
-    background-color: #FB47FF;
+    color:#F32688 ;
+    background-color: #eeafed;
     border: 2px solid #fff;
     border-radius: 50%;
     height: 30px;
@@ -114,7 +114,7 @@ footer {
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #FB47FF;
+    background-color:#eeafed;
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s ease;

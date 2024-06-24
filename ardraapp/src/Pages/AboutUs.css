@@ -1,42 +1,101 @@
+
+body{
+   font-family: "Nunito", sans-serif;;
+}
+.circle-top {
+  width: clamp(25rem, 30vw, 31.25rem);
+  position: absolute;
+  top: 5em;
+  left: -10em;
+  height: clamp(25rem, 30vw, 31.25rem);
+  background: radial-gradient(circle, rgba(198, 35, 194, 0.56) 0%, rgba(198, 35, 194, 0) 60%, rgba(255, 255, 255, 0) 100%);
+  border-radius: 50%;
+}
+
 .about-us-header {
-    padding: 40px 20px;
-    text-align: center;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.intro-section {
+  margin-bottom: 30px;
+  animation: fadeIn 1s ease-out;
+}
+
+
+
+.intro-section p {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #f32688; /* Updated color */
+}
+
+.about-section {
+  margin-bottom: 40px;
+  animation: slideInLeft 1s ease-out;
+}
+
+.about-section h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #c623c2;
+  font-weight: 800; /* Updated color */
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #9f8495; /* Updated color */
+}
+
+.our-vision-section {
+  margin-bottom: 40px;
+  animation: fadeInUp 1s ease-out;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.our-vision-section h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #c623c2;
+  font-weight: 800; /* Updated color */
+}
+
+.our-vision-section p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #9f8495; /* Updated color */
+}
+
+/* Keyframes for animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
   }
-  
-  .intro-section {
-    margin-bottom: 40px;
-    animation: fadeIn 1s ease-out;
+  to {
+    opacity: 1;
   }
-  
-  .intro-section span  {
-    display: block;
-    font-size: 1.2rem;
-    color: #be5097  ;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
   }
-  
-  .intro-section h3 {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-top: 10px;
-    color: #F32688; /* Update color */
+  to {
+    transform: translateX(0);
   }
-  
-  .about-section {
-    margin-bottom: 40px;
-    animation: slideInLeft 1s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
   }
-  
-  .about-section h2 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-    color: #C623C2; /* Update color */
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
-  
- .about-section p {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-    color: #9f8495; /* Update color */
-  }
-  
- 
-  
+}

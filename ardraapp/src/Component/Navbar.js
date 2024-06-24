@@ -7,9 +7,13 @@ function Navbar() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg ">
+        {/* <div className='card-nav'>
+      <div className='card-navbar'>
+         </div>
+        </div> */}
         
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href='/'>
             <img src={ardralogonav} alt="Logo" width="100" height="60" />
           </a>
           <button
@@ -35,10 +39,10 @@ function Navbar() {
                 >
                   Product
                 </a>
-                <ul className="dropdown-menu">
+                <ul className="dropdown-menu bg-dark border-none ">
                   <li><a className="dropdown-item" href="#">Energy Management</a></li>
                   <li>
-                    <div className='d-flex'>
+                    <div className='d-flex '>
                       <a className="dropdown-item" href="#">ardraEMS</a>
                       <a className="dropdown-item" href="#">ardraPROBE</a>
                     </div>
@@ -47,7 +51,7 @@ function Navbar() {
                   <li><a className="dropdown-item" href="#">ArdraAI</a></li>
                 </ul>
               </li>
-              <li className="nav-item dropdown">
+              <li className="nav-item dropdown  ">
                 <a
                   className="nav-link dropdown-toggle"
                   href="#"
@@ -57,28 +61,24 @@ function Navbar() {
                 >
                   Pricing
                 </a>
-                <ul className="dropdown-menu">
-                  <li><a className="dropdown-item" href="#">Action</a></li>
-                  <li><a className="dropdown-item" href="#">Another action</a></li>
-                  <li><a className="dropdown-item" href="#">Something else here</a></li>
+                <ul className="dropdown-menu bg-dark border-none ">
+                  <li><a className="dropdown-item" href="#"> <strong>Energy Management</strong> </a></li>
+                  <div className='d-flex' >
+                  <li><a className="dropdown-item" href="#">ardraPROBE</a></li>
+                  <li><a className="dropdown-item" href="#"> ardraEMS </a></li>
+                  </div>
+                  <div  className='d-flex' >
+                  <li><a className="dropdown-item" href="#"> EnergyGPT</a></li>
+                  <li><a className="dropdown-item" href="#"> ArdraAI </a></li>
+                  </div>
                 </ul>
               </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
+              <li className="nav-item">
+                <a className="nav-link" href='/resource'>
                   Resources
                 </a>
-                <ul className="dropdown-menu">
-                  <li><a className="dropdown-item" href="#">Action</a></li>
-                  <li><a className="dropdown-item" href="#">Another action</a></li>
-                  <li><a className="dropdown-item" href="#">Something else here</a></li>
-                </ul>
               </li>
+             
               <li className="nav-item">
                 <a className="nav-link" href="#">
                   ArdraAI
