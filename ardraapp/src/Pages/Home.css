@@ -2,11 +2,8 @@
 body {
     margin: 0;
     padding: 0;
-
-    background-color: #E4CCFF;
-    /* background: linear-gradient(135deg, #E4CCFF 0%, #A4E2FF 100%); */
+    background-color: #f3ecf3;
     font-family: 'Arial', sans-serif;
-    color: #333;
 }
 
 /* Styling for headline */
@@ -14,12 +11,13 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
-    color: #ffffff;
+    color: #C623C2;
     margin-top: 7%;
     letter-spacing: -2.3%;
-    line-height: 150%;
+    line-height: 1.5;
     font-size: 2rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: 800;
+    text-shadow: 2px 2px 4px rgba(243, 38, 136, 0.5);
 }
 
 /* Styling for home badge */
@@ -30,10 +28,7 @@ body {
     margin-top: 2rem;
 }
 
-.homebadge img {
-    border-radius: 10px;
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
-}
+
 
 /* Styling for book demo section */
 .bookdemo {
@@ -43,21 +38,23 @@ body {
     margin-top: 2rem;
 }
 
-.bookdemo button {
-    background-color: #fff;
-    color: #333;
-    padding: 10px 20px;
+.bookdemo a {
+    
+    color:#F32688;
+    padding: 10px 15px;
     border: none;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
     cursor: pointer;
-    font-size: 1rem;
-    transition: background-color 0.3s, color 0.3s;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: background-color 0.3s, transform 0.3s;
 }
 
-.bookdemo button:hover {
-    background-color: #333;
-    color: #fff;
+.bookdemo a:hover {
+    color:#C623C2;
+    transform: translateY(-2px);
 }
 
 /* Media queries for responsiveness */
@@ -72,7 +69,7 @@ body {
         height: 90px;
     }
 
-    .bookdemo button {
+    .bookdemo a {
         font-size: 0.9rem;
         padding: 8px 16px;
     }

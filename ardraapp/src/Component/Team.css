@@ -4,11 +4,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
 }
 
 body {
   min-height: 100vh;
-  background: #1f2c3a;
+  background-color:#f3ecf3;
   font-family: "Nunito", sans-serif;
   position: relative;
   overflow-x: hidden;
@@ -22,28 +23,20 @@ body {
   object-position: top;
 }
 
-.circle-top {
-  width: clamp(25rem, 30vw, 31.25rem);
-  position: absolute;
-  top: 8em;
-  left: -8em;
-  height: clamp(25rem, 30vw, 31.25rem);
-  background: radial-gradient(circle, rgba(198, 35, 194, 0.56) 0%, rgba(198, 35, 194, 0) 60%, rgba(255, 255, 255, 0) 100%);
-  border-radius: 50%;
-}
+
 
 .circle-bottom {
   width: clamp(25rem, 30vw, 31.25rem);
   position: absolute;
-  bottom: -5em;
-  right: -8em;
+  
+  right: -10em;
   height: clamp(25rem, 30vw, 31.25rem);
   background: radial-gradient(circle, rgba(198, 35, 194, 0.56) 0%, rgba(198, 35, 194, 0) 65%, rgba(255, 255, 255, 0) 100%);
   border-radius: 50%;
 }
 
 header {
-  background: linear-gradient(to top, #1f2c3a 0%, rgba(47, 60, 71, 0.26) 100%), url("https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat 50% 50%/cover;
+  background: linear-gradient(to top, #f3ecf3  0%, #F32688 100% #f3ecf3  100%), no-repeat 50% 50%/cover;
   width: 100%;
   min-height: 25em;
   display: flex;
@@ -63,14 +56,17 @@ header {
 
 .header-content span {
   display: inline-block;
+  color: #F32688;
   text-transform: uppercase;
   letter-spacing: 0.063rem;
   font-size: clamp(0.8rem, 0.7625rem + 0.1875vw, 0.95rem);
+  font-weight: 900;
 }
 
-.header-content h1 {
+.header-content p {
   font-size: clamp(1.5rem, 1.375rem + 0.625vw, 2rem);
   font-weight: 700;
+  color: #C623C2;
 }
 
 section {
@@ -86,19 +82,20 @@ section {
 }
 
 .card {
-  padding: 2em;
-  max-width: 20rem;
+  padding: 1em;
+  max-width: 18rem;
   width: 100%;
   display: grid;
   place-content: center;
   place-items: center;
   text-align: center;
-  background: #2e3a48;
+  background: linear-gradient(135deg, #f2eef2, #be9eab);
   border-radius: 1rem;
-  box-shadow: 0 4px 8px #C623C2;
+  
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   position: relative;
   overflow: hidden;
+  border: none;
 }
 
 .card::before {
@@ -125,15 +122,17 @@ section {
 }
 
 .card h2 {
-  color: #fff;
+  color:#C623C2;
   letter-spacing: 0.05rem;
   font-size: clamp(1rem, 0.9375rem + 0.3125vw, 1.25rem);
   margin-top: 1em;
   margin-bottom: 0.5em;
+  font-weight: 800;
 }
 
 .card p {
-  color: #E4CCFF;
+  color:#fa7fba;
+  font-weight: 700;
   font-size: clamp(0.8rem, 0.7625rem + 0.1875vw, 0.95rem);
 }
 
@@ -152,23 +151,23 @@ section {
 
 
 
-/* Existing styles */
+
 
 .bottom-row {
   
     padding: 2em 0;
-
+    
     
     width: 100%;
-    overflow: hidden; /* Hide overflow to ensure a clean look */
+    overflow: hidden; 
     
   }
-  
+
   .scrolling-wrapper {
     display: inline-flex;
     gap: 1em;
     padding: 0 2em;
-    animation: scroll-left 20s linear infinite; /* Animation for continuous scrolling */
+    animation: scroll-left 30s linear infinite; /* Animation for continuous scrolling */
   }
   
   @keyframes scroll-left {
@@ -183,29 +182,33 @@ section {
   .team-member {
     width: 150px;
     height: 150px; /* Adjusted height for text */
-    background-color: #2e3a48;
-    border-radius: 1rem;
+    /* background-color: #2e3a48; */
+  
     overflow: hidden;
     position: relative;
     transition: transform 0.3s ease;
     text-align: center;
     padding: 1em;
-  box-shadow: 0 4px 8px #C623C2;
+  /* box-shadow: 0 4px 8px #C623C2; */
+  margin-right: 30px;
+  
 
   }
   
   .team-member img {
+    height: auto;
     width: 100%;
-    height: 100px; 
     object-fit: cover;
     object-position: center;
-    border-radius: 10% ; 
+    border-radius: 50%;
+    overflow: hidden;
+    
   }
   
-  .team-member h2 {
-    color: #fff;
-    margin-top: 0.5em;
-    font-size: 1rem;
+  .team-member h6 {
+    color:#C623C2;
+    margin-top: 0.1em;
+    
   }
   
   .team-member p {

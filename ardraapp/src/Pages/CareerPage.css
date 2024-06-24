@@ -1,0 +1,97 @@
+/* General Page Styling */
+.career-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9e6f9;
+  padding: 50px;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Content Styling */
+.career-content {
+ 
+  
+ 
+  padding: 70px;
+  max-width: 800px;
+  text-align: center;
+  transform: translateY(-50px);
+  animation: slideIn 0.5s ease-out forwards;
+}
+
+/* Title Styling */
+.career-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #C623C2;
+}
+
+/* Subtitle Styling */
+.career-subtitle {
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+  color: #F32688;
+}
+
+/* Description Styling */
+.career-description {
+  font-size: 1rem;
+  margin-bottom: 30px;
+  color: #666;
+  display: block;
+}
+
+/* Button Styling */
+.career-button {
+  background-color: #C623C2;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.career-button:hover {
+  background-color: #F32688;
+  transform: translateY(-3px);
+}
+
+/* Link Styling */
+.career-link {
+  font-size: 1rem;
+  color: #C623C2;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  display: block;
+  margin-top: 20px;
+}
+
+.career-link:hover {
+  color: #F32688;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

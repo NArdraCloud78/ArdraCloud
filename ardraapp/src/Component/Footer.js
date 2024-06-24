@@ -40,7 +40,7 @@ function Footer() {
       <div className="footer-container">
         <div className="footer-column">
           <img src={footerLogo} alt="Company Logo" height={100} width={150} />
-          <p>We are committed to delivering the best service and quality.</p>
+          <p>Manage your energy with Ardra AI.</p>
         </div>
         <div className="footer-column">
           <h5>Products</h5>
@@ -57,7 +57,7 @@ function Footer() {
           <ul>
             <li><a href='/aboutus'>About</a></li>
             <li><a href="#">Blogs</a></li>
-            <li><a href="#">Career</a></li>
+            <li><a href='/career'>Career</a></li>
             <li><a href="#">Team</a></li>
           </ul>
         </div>
@@ -86,7 +86,7 @@ function Footer() {
           <div className="social-media">
             <a href="https://www.facebook.com/ardracloud" aria-label="Facebook"><i className="fab fa-facebook-f"></i></a>
             <a href="https://twitter.com/ArdraAi" aria-label="Twitter"><i className="fab fa-twitter"></i></a>
-            <a href="https://www.linkedin.com/company/14632013/admin/feed/posts/" aria-label="LinkedIn"><i className="fab fa-linkedin-in"></i></a>
+            <a href="https://www.linkedin.com/company/88407851/admin/feed/posts/" aria-label="LinkedIn"><i className="fab fa-linkedin-in"></i></a>
             <a href="https://www.instagram.com/ardra.ai/" aria-label="Instagram"><i className="fab fa-instagram"></i></a>
           </div>
         </div>

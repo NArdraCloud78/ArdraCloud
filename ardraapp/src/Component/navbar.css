@@ -2,26 +2,30 @@
 
 .navbar {
   padding: 0;
-  color: #fff;
-  background-color: #222;
+  
+  background-color:#fdf2fd;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .navbar ul li a {
   color: #FB47FF;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .navbar .lastitem .signin {
   color: #FB47FF;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  font-weight: 700;
 }
 
 .navbar .lastitem .book {
   color: #0D99FF;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  font-weight: 700;
 }
-
-.navbar .card {
+ 
+.card-nav {
   margin-top: 0;
   display: flex;
   justify-content: center;
@@ -32,10 +36,20 @@
   text-align: center;
   border-radius: 3px;
   box-shadow: 0 0 50px 15px #ffffff;
+  border-radius: 5%;
+}
+
+.card-navbar {
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 4.1px;
+  text-align: center;
+  border-radius: 5%;
 }
 
 @media (max-width: 991px) {
-  .navbar .card {
+  .navbar .card-nav {
     display: none;
   }
 }

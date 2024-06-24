@@ -1,30 +1,31 @@
 import React from 'react';
 import './Team.css';
-import IlishaTomer from '../Assist/team/ilisha.jpg'
-import SanskarChauhan from '../Assist/team/Sanskar.JPEG'
-import AyushiSinha from '../Assist/team/Ayushi.jpeg'
+import IlishaTomer from '../Assist/team/ilisha.png'
+import SanskarChauhan from '../Assist/team/Sanskar.png'
+import AyushiSinha from '../Assist/team/Ayushi.png'
 import NishchalSingh from '../Assist/team/Nishchal.png'
-import SajalJain from '../Assist/team/Sajal.jpeg'
-import MaazAhmedFarooqui from '../Assist/team/Maaz.jpeg'
-import PranjalYadav from '../Assist/team/Pranjal.jpeg'
-import SmritiYadav from '../Assist/team/Smriti.jpeg'
-import ManojJain from '../Assist/team/manoj.jpeg'
-import AnjaliJain from '../Assist/team/Anjali.jpeg'
-import keshav from '../Assist/team/kashev.jpg'
-import Diwakar from '../Assist/team/Diwakar.jpeg'
-import Neha from '../Assist/team/Neha.jpeg'
-import Pranay from '../Assist/team/Pranay.jpeg'
+import SajalJain from '../Assist/team/Sajal.png'
+import MaazAhmedFarooqui from '../Assist/team/Maaz.png'
+import PranjalYadav from '../Assist/team/Pranjal.png'
+import SmritiYadav from '../Assist/team/Smriti.png'
+import ManojJain from '../Assist/team/manoj.png'
+import AnjaliJain from '../Assist/team/Anjali.png'
+import keshav from '../Assist/team/Kashev.png'
+import Diwakar from '../Assist/team/Diwakar.png'
+import Neha from '../Assist/team/Neha.png'
+import Pranay from '../Assist/team/Pranay.png'
+import Nikita from '../Assist/team/Nikita.png'
 
 
 function Team() {
   return (
     <div className="team">
-      <div className="circle-top"></div>
+      
       <div className="circle-bottom"></div>
       <header>
         <div className="header-content">
           <span>Founding team</span>
-          <h1>We are a team of Engineers, Data scientists, Architects and Enegy auditors</h1>
+          <p>We are a team of Engineers, Data scientists, Urban Architects and Enegy auditors</p>
         </div>
       </header>
       <section>
@@ -76,31 +77,35 @@ function Team() {
           {/* Team members in the scrolling row */}
           <div className="team-member">
             <img src={keshav} alt="keshav" />
-            <h2>Keshav</h2>
+            <h6>Keshav</h6>
           </div>
           <div className="team-member">
             <img src={IlishaTomer} alt="ilisha" />
-            <h2>Ilisha</h2>
+            <h6>Ilisha</h6>
           </div>
           <div className="team-member">
             <img src={MaazAhmedFarooqui} alt="maaz" />
-            <h2>Maaz</h2>
+            <h6>Maaz</h6>
           </div>
           <div className="team-member">
             <img src={AyushiSinha} alt="Ayushi" />
-            <h2>Ayushi</h2>
+            <h6>Ayushi</h6>
           </div>
           <div className="team-member">
             <img src={NishchalSingh} alt="nishal" />
-            <h2>Nishchal</h2>
+            <h6>Nishchal</h6>
           </div>
           <div className="team-member">
             <img src={SajalJain} alt="" />
-            <h2>Sajal</h2>
+            <h6>Sajal</h6>
           </div>
           <div className="team-member">
             <img src={SanskarChauhan} alt="sanskar" />
-            <h2>Sanskar</h2>
+            <h6>Sanskar</h6>
+          </div>
+          <div className="team-member">
+            <img src={Nikita} alt="Nikita" />
+            <h6>Nikita</h6>
           </div>
 
           {/* Repeat for each team member */}

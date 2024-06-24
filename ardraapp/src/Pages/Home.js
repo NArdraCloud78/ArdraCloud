@@ -15,10 +15,10 @@ function Home() {
           Insights, Empowering Decisions
         </p>
       </div>
-      <div className='homebadge mb-3'>
+      <div className='homebadge mb-1'>
         <img width={170} height={100} src={badge} alt="Badge" />
       </div>
-      <div className='bookdemo mb-3'>
+      <div className='bookdemo mb-5'>
         <Link to="https://calendly.com/pranjal-2diz/ardra-ai-socials">Book a demo</Link>
       </div>
     </>
